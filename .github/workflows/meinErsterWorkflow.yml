@@ -7,8 +7,9 @@ jobs:
   changed-job: 
     runs-on: ubuntu-latest
     steps:
-      - name: Abschied 
-        run: "Bye Bye!"
+      - name: Abschied
+      
+        run: echo "Bye Bye!"
       - name: meinErsterStep
         run: echo "Hallo Welt!"
 
