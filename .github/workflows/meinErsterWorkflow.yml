@@ -1,7 +1,7 @@
 name: meinErsterWorkflow
 
-on: push
-pull_request
+on: [push,pull_request]
+
 
 jobs:
   changed-job: 
